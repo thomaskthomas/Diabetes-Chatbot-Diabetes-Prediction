@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello! I'm your Diabetes Care Chatbot. I'm here to help you with diabetes-related queries. How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "quit"],
+      "responses": ["Take care! Remember to monitor your blood sugar levels regularly and maintain a healthy lifestyle. Feel free to return anytime!"]
+    },
+    {
+      "tag": "what is diabetes",
+      "patterns": ["what is diabetes", "define diabetes", "explain diabetes"],
+      "responses": ["Diabetes is a chronic condition that occurs when the body either doesn't produce enough insulin or can't effectively use the insulin it produces. This leads to high blood sugar levels, which can cause various health complications if not managed properly."]
+    },
+    {
+      "tag": "types of diabetes",
+      "patterns": ["what are the types of diabetes", "types of diabetes", "how many kinds of diabetes are there"],
+      "responses": ["There are three main types of diabetes: \n1️⃣ **Type 1 Diabetes**: An autoimmune condition where the body attacks insulin-producing cells, requiring lifelong insulin therapy. \n2️⃣ **Type 2 Diabetes**: The most common form, where the body becomes resistant to insulin or doesn't produce enough. \n3️⃣ **Gestational Diabetes**: Occurs during pregnancy and increases the risk of developing Type 2 diabetes later."]
+    },
+    {
+      "tag": "symptoms of diabetes",
+      "patterns": ["what are the symptoms of diabetes", "diabetes symptoms", "signs of diabetes"],
+      "responses": ["Common symptoms of diabetes include: \n- Excessive thirst and hunger\n- Frequent urination, especially at night\n- Unexplained weight loss\n- Fatigue and irritability\n- Blurry vision\n- Slow-healing wounds\n- Tingling or numbness in the hands or feet\n\nIf you experience these symptoms, it's important to consult a doctor for proper testing."]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": ["how to diagnose diabetes", "diabetes test", "how to know if I have diabetes"],
+      "responses": ["Diabetes can be diagnosed through various blood tests: \n- **Fasting Blood Sugar (FBS)**: Measures glucose levels after fasting for 8+ hours. A reading above 126 mg/dL suggests diabetes.\n- **HbA1c Test**: Provides an average blood sugar level over 2-3 months. A level of 6.5% or higher indicates diabetes.\n- **Oral Glucose Tolerance Test (OGTT)**: Checks blood sugar levels before and after drinking a sugary drink. \n\nIf you suspect diabetes, it's essential to get tested and consult a healthcare professional."]
+    },
+    {
+      "tag": "do i have diabetes",
+      "patterns": ["do i have diabetes", "how do I know if I have diabetes", "am I diabetic"],
+      "responses": ["I can help you assess your risk! Can you provide your recent blood sugar reading? (Fasting or post-meal)"]
+    },
+    {
+      "tag": "sugar level low",
+      "patterns": ["below 100", "my fasting sugar is below 100"],
+      "responses": ["Your blood sugar level is in the normal range. Keep maintaining a healthy diet, exercise regularly, and monitor your levels periodically to stay on track!"]
+    },
+    {
+      "tag": "sugar level prediabetic",
+      "patterns": ["between 100 and 125", "110 sugar level", "120 sugar level"],
+      "responses": ["Your reading falls in the prediabetes range. This means you are at risk of developing diabetes if lifestyle changes aren’t made. A combination of a healthy diet, regular physical activity, and weight management can help prevent diabetes. Would you like recommendations on diet and exercise?"]
+    },
+    {
+      "tag": "sugar level high",
+      "patterns": ["above 126", "130 sugar level", "150 sugar level"],
+      "responses": ["This level is in the diabetic range. If this is your fasting blood sugar, it's recommended to see a doctor for further testing. Have you experienced symptoms such as excessive thirst, frequent urination, or unexplained weight loss?"]
+    },
+    {
+      "tag": "symptoms confirmation",
+      "patterns": ["yes, I have thirst and urination issues", "I feel thirsty all the time", "I urinate a lot"],
+      "responses": ["Those are common signs of high blood sugar. If you haven't already, please consult a doctor for an HbA1c test to confirm diabetes and discuss possible treatment options."]
+    },
+    {
+      "tag": "weight loss symptoms",
+      "patterns": ["yes, I have lost weight", "I feel very tired", "I have extreme fatigue"],
+      "responses": ["Unexplained weight loss and fatigue could be signs of diabetes. I recommend getting a proper medical check-up, including blood sugar tests, to determine the cause and start the right treatment. Early detection is key to managing diabetes effectively!"]
+    },
+    {
+      "tag": "how to prevent diabetes",
+      "patterns": ["how to prevent diabetes", "how can I avoid diabetes"],
+      "responses": ["To reduce your risk of diabetes: \n- Eat a balanced diet rich in fiber, whole grains, and lean proteins.\n- Exercise regularly, aiming for at least 30 minutes of physical activity most days.\n- Maintain a healthy weight.\n- Manage stress levels, as stress can affect blood sugar levels.\n- Get regular health check-ups, especially if you have a family history of diabetes."]
+    },
+    {
+      "tag": "diet for diabetes",
+      "patterns": ["what should diabetics eat", "best food for diabetes", "diet for diabetes"],
+      "responses": ["For managing diabetes, your diet should include:\n✔ Whole grains like quinoa, brown rice, and oats.\n✔ Lean proteins like chicken, fish, and tofu.\n✔ Healthy fats from avocados, nuts, and olive oil.\n✔ Low-GI fruits like berries, apples, and oranges.\nAvoid high-sugar, processed foods, and refined carbohydrates like white bread and sugary drinks."]
+    },
+    {
+      "tag": "exercise for diabetes",
+      "patterns": ["should diabetics exercise", "best exercise for diabetes", "how much exercise is needed"],
+      "responses": ["Regular exercise is highly beneficial for diabetics. It helps regulate blood sugar, improves insulin sensitivity, and supports weight management. \nRecommended exercises: \n- **Cardio**: Walking, jogging, cycling, or swimming for at least 30 minutes a day.\n- **Strength training**: Lifting weights or resistance exercises 2-3 times a week.\n- **Flexibility & balance**: Yoga and stretching exercises help overall well-being."]
+    },
+    {
+      "tag": "should i see a doctor",
+      "patterns": ["should I see a doctor", "do I need to see a doctor", "should I get tested"],
+      "responses": ["If you have high blood sugar readings or symptoms like excessive thirst, frequent urination, fatigue, or weight loss, it’s best to consult a doctor. They can run the necessary tests to confirm diabetes and recommend the best treatment plan."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I feel stressed about diabetes", "diabetes is hard", "I need motivation"],
+      "responses": ["Managing diabetes can feel overwhelming, but you're not alone. Small, consistent changes in your lifestyle can make a huge impact on your health. Remember, every step you take toward a healthier lifestyle is a step toward better well-being! 💪"]
+    }
+  ]
+}
